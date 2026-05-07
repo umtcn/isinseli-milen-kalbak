@@ -11,20 +11,6 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    id: "ai-garden",
-    title: "AI Garden",
-    category: "AI Performance Marketing",
-    description: "Successfully managed the full lifecycle of the 'v2 - Iteration4' creative over a 10-month period.",
-    longDescription: "Proactively implementing strategic pivots and visual iterations to counteract ad fatigue and frequency-related ROAS fluctuations. Achieved CPRs as low as $42.28 with the 'V3 Transformation' series.",
-    stats: [
-      { label: "Total Spend", value: "$225k+" },
-      { label: "Views", value: "9.5M" },
-      { label: "Reach", value: "5.3M" }
-    ],
-    videos: ["/v2-iteration4-ai-garden.mp4", "/EN-Transformation3-D-AIGarden.mp4"],
-    tags: ["AI Video", "ROAS Optimization", "Creative Strategy"]
-  },
-  {
     id: "donna-ai",
     title: "Donna AI",
     category: "AI Music & Entertainment",
@@ -38,48 +24,6 @@ export const PROJECTS: Project[] = [
     videos: ["/EN-AICoverCrying7-D-Milen-Donna.mp4", "/ES-AICoverLanguages-D-V3-Milen-Donna.mp4", "/EN-V3Iteration-D-V14-Milen-Donna.mp4", "/EN-V3Iteration-D-V15-Milen-Donna.mp4"],
     tags: ["AI Music", "Viral Hooks", "Multi-Variant Testing"]
   },
-  {
-    id: "tcg-scanner",
-    title: "TCG Card Scanner",
-    category: "Utility App Marketing",
-    description: "The creative challenge was making a utility app feel exciting for a high-intent audience.",
-    longDescription: "Scaled 'V1 PSA vs TCG' and 'V3 Set 2' to reach 2.2M+ users. Optimized budget management to achieve a peak Purchase ROAS of 0.85.",
-    stats: [
-      { label: "Reach", value: "2.2M+" },
-      { label: "CTR", value: "1.21%" },
-      { label: "ROAS", value: "0.85" }
-    ],
-    videos: ["/EN-Set2-D-V3-Milen-TCGCardValueIdentifier.mp4", "/EN-PSAvsTCG-D-V1-Milen-TCGKardo.mp4"],
-    tags: ["UGC Style", "Utility Marketing", "ROAS"]
-  },
-  {
-    id: "kai-comic",
-    title: "KAI AI Comic Book",
-    category: "AI Creative Tools",
-    description: "Managed high-scale Facebook Ad campaigns utilizing the 'v11' creative series.",
-    longDescription: "Successfully generated over 760 website purchases and reached nearly 2 million potential customers through data-driven optimization.",
-    stats: [
-      { label: "Purchases", value: "760+" },
-      { label: "Reach", value: "2M" },
-      { label: "Spend", value: "$16k+" }
-    ],
-    videos: ["/EN-FirstCreativeSet-D-V11-Milen-ComicBookAI.mp4", "EN-GoreComic-V3-KAIComicBook.mp4", "EN-GoreComic-V4-KAIComicBook.mp4"],
-    tags: ["AI Comics", "Direct Response", "Facebook Ads"]
-  },
-  {
-    id: "ai-car-designer",
-    title: "AI Car Designer",
-    category: "User Acquisition / iOS",
-    description: "Drive app installs by demonstrating the 'Magic Moment' of turning static car photos into cinematic, AI-generated driving videos.",
-    longDescription: "Developed a multi-language campaign (English/Spanish) targeting the automotive 'car-culture' niche on social media. Created a 'scroll-stopping' visual hook that lowered the perceived barrier to entry for professional-grade videography.",
-    stats: [
-      { label: "Role", value: "Strategist" },
-      { label: "Platform", value: "iOS" },
-      { label: "Markets", value: "EN/ES" }
-    ],
-    videos: ["/EN-CarsOnRoad-D-V5-Milen-AICar.mp4", "/ES-CarsOnRoad-D-V2-Milen-AICar.mp4"],
-    tags: ["Creative Strategy", "Video Editing", "AI Video", "User Acquisition"]
-  }
 ];
 
 export const AUTOMATION = {
