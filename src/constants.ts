@@ -11,6 +11,20 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    id: "ai-garden",
+    title: "AI Garden",
+    category: "AI Performance Marketing",
+    description: "Successfully managed the full lifecycle of the 'v2 - Iteration4' creative over a 10-month period.",
+    longDescription: "Proactively implementing strategic pivots and visual iterations to counteract ad fatigue and frequency-related ROAS fluctuations. Achieved CPRs as low as $42.28 with the 'V3 Transformation' series.",
+    stats: [
+      { label: "Total Spend", value: "$225k+" },
+      { label: "Views", value: "9.5M" },
+      { label: "Reach", value: "5.3M" }
+    ],
+    videos: ["/v2-iteration4-ai-garden.mp4", "/EN-Transformation3-D-AIGarden.mp4"],
+    tags: ["AI Video", "ROAS Optimization", "Creative Strategy"]
+  },
+  {
     id: "donna-ai",
     title: "Donna AI",
     category: "AI Music & Entertainment",
@@ -24,6 +38,20 @@ export const PROJECTS: Project[] = [
     videos: ["/EN-AICoverCrying7-D-Milen-Donna.mp4", "/ES-AICoverLanguages-D-V3-Milen-Donna.mp4", "/EN-V3Iteration-D-V14-Milen-Donna.mp4", "/EN-V3Iteration-D-V15-Milen-Donna.mp4"],
     tags: ["AI Music", "Viral Hooks", "Multi-Variant Testing"]
   },
+  {
+    id: "kai-comic",
+    title: "KAI AI Comic Book",
+    category: "AI Creative Tools",
+    description: "Managed high-scale Facebook Ad campaigns utilizing the 'v11' creative series.",
+    longDescription: "Successfully generated over 760 website purchases and reached nearly 2 million potential customers through data-driven optimization.",
+    stats: [
+      { label: "Purchases", value: "760+" },
+      { label: "Reach", value: "2M" },
+      { label: "Spend", value: "$16k+" }
+    ],
+    videos: ["/EN-FirstCreativeSet-D-V11-Milen-ComicBookAI.mp4", "EN-GoreComic-V3-KAIComicBook.mp4", "EN-GoreComic-V4-KAIComicBook.mp4"],
+    tags: ["AI Comics", "Direct Response", "Facebook Ads"]
+  }
 ];
 
 export const AUTOMATION = {
